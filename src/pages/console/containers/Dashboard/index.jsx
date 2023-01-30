@@ -77,7 +77,7 @@ class Dashboard extends React.Component {
           <img src={avatar_url || '/assets/default-user.svg'} />
         </div>
         <div className={styles.title}>
-          <strong>{t('DASHBOARD_TITLE', { username })}</strong>
+          <strong>{t('DASHBOARD_TITLE', { username })}ACDS</strong>
           <div className={styles.info}>
             <p>
               <Icon name="role" size={16} />
